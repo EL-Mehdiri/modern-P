@@ -1,9 +1,9 @@
 
-let currentSlide = 1;
+currentSlide = 1;
 
 sliderelement = document.getElementById('slider')
 const total = sliderelement.childElementCount;
-console.log(total)
+// console.log(total)
 
 function next() {
     if (currentSlide < total) {
